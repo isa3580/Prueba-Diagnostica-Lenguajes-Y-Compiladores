@@ -89,12 +89,13 @@ public class Problema1 {
     /**
      * Escribe el resultado en un archivo externo sin borrar los registros previos.
      */
-    public static void guardarResultado(int n, double x, double resultado) {
+     public static void guardarTiempoRendimiento(int n, long nanosegundos) {
         try (PrintWriter out = new PrintWriter(new FileWriter("resultado_ejecucion.txt", true))) {
-            out.printf("Cálculo: (%.2f + 1)^%d = %.4f\n", x, n, resultado);
-            System.out.println("\n Datos exportados exitosamente.");
+            double segundos = nanosegundos / 1_000_000_000.0;
+            out.printf("Lenguaje: Java | Grado n: %d | Tiempo: %d ns (%.6f seg)\n", n, nanosegundos, segundos);
+            System.out.println("\n Tiempo de ejecución guardado en 'resultado_ejecucion.txt'.");
         } catch (Exception e) {
-            System.err.println("Error de escritura: " + e.getMessage());
+            System.err.println("Error al guardar: " + e.getMessage());
         }
     }
 }
