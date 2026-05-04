@@ -25,9 +25,22 @@ Dado un número entero no negativo n:
 
 
 ## Instrucciones de Ejecución
-1.  Asegúrese de tener instalados el JDK y el compilador GCC/MinGW.
-2.  Ejecute el archivo ejecutar_todo.bat.
-3.  Siga las instrucciones en la consola para ingresar el valor de n y el valor de x.
-4.  Al finalizar, consulte el archivo resultado.txt para ver la comparación de tiempos.
+Siga los pasos a continuación para compilar y ejecutar cada versión de forma manual:
+
+### 1. Ejecución en C++
+Abra la terminal en la carpeta raíz del proyecto y ejecute:
 
 
+# Compilar el código fuente
+g++ problema1.cpp -o problema1.exe
+
+# Ejecutar el programa
+./problema1.exe
+
+## 2. Ejecución en Java
+
+# Compilar el archivo de clase
+javac Problema1.java
+
+# Ejecutar la clase compilada
+java Problema1
