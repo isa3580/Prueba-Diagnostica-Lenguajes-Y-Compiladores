@@ -1,0 +1,3 @@
+Java | n=100 x=7,00 | Tiempo Res: 0,1222000000 ms
+C++ | n=100 x=7 | Tiempo Ejecucion: 0.0000000000 ms
+C++ | n=100 x=8 | Tiempo Ejecucion: 0.0000000000 ms
