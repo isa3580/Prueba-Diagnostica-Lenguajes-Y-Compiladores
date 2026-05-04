@@ -18,12 +18,14 @@ El validador verifica los 6 campos esenciales de una cadena FEN:
 ## Requisitos de Instalación
 Para compilar y ejecutar este programa, se requiere:
 * Un compilador de C (como GCC a través de MinGW).
-* El compilador debe estar agregado a las variables de entorno (PATH) del sistema.
+* Asegurese de estar en la carpeta donde se guardo el archivo
 
 ## Instrucciones de Ejecución
-Usando el Script Automático (Recomendado)
-Simplemente haz doble clic en el archivo ejecutar.bat. El script:
-1. Compilará el código fuente automáticamente.
-2. Verificará si hubo errores.
-3. Ejecutará el programa en la consola.
+Abra el terminal de la computadora en la carpeta donde se encuentra el programa y coloque lo siguientes comandos:
+
+Para compilar:
+gcc problema2.c -o problema2.exe
+
+para ejecutar:
+problema2.exe
 
