@@ -18,10 +18,18 @@ El sistema debe leer un código fuente externo (`programa.txt`), identificar qu�
 *   `programa.txt`: Archivo de entrada que contiene el código a analizar.
 *   `ejecutar_traductor.bat`: Script para automatizar la compilación y ejecución.
 
-## Instrucciones de Ejecución
-1.  Asegúrese de tener un archivo llamado `programa.txt` en la misma carpeta con algún código en C.
-2.  Ejecute el archivo **`ejecutar_traductor.bat`**.
-3.  El programa imprimirá en consola cada palabra reservada encontrada junto a su traducción.
+## Requisitos de Instalación
+Para compilar y ejecutar este programa, se requiere:
+* Un compilador de C (como GCC a través de MinGW).
+* Asegurese de estar en la carpeta donde se guardo el archivo
 
----
+## Instrucciones de Ejecución
+Abra el terminal de la computadora en la carpeta donde se encuentra el programa y coloque lo siguientes comandos:
+
+Para compilar:
+gcc problema3.c -o problema3.exe
+
+para ejecutar:
+problema3.exe
+
 
