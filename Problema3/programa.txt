@@ -1,0 +1,15 @@
+
+void calcular() {
+    static int contador = 0;
+    float limite = 10.5;
+    
+    for (int i = 0; i < 10; i++) {
+        if (i > 5) {
+            break;
+        } else {
+            contador++;
+        }
+    }
+    
+    return;
+}
