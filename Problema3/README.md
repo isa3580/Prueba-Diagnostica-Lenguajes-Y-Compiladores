@@ -24,5 +24,4 @@ El sistema debe leer un código fuente externo (`programa.txt`), identificar qu�
 3.  El programa imprimirá en consola cada palabra reservada encontrada junto a su traducción.
 
 ---
-**Carrera:** Ingeniería en Informática - UNEG
-**Materia:** Algoritmos y Programación
+
